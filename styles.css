@@ -1,0 +1,58 @@
+html  {
+    font-family: 'Courier New', Courier, monospace
+}
+body  {
+    background-color: rgb(122, 233, 218);
+}
+h2, p, .links{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+a {
+     color: rgb(0, 0, 0);
+    }
+.boxes {
+    display: block;
+    margin: auto;
+    padding: auto;
+    border-style: solid;
+    border-radius: 10% ;
+    width: 15em;
+
+}
+a:hover {
+    cursor: pointer;
+    font: bold;
+    color: rgb(255, 0, 0);
+    text-align: center
+}
+span {
+    color: blueviolet;
+    font-weight: bold
+}
+div {
+    width: 20%
+}
+#box1 {
+    background-color:gold;
+}
+#box2 {
+    background-color: green;
+}
+#box3 {
+    background-color: orange
+}
+#box4 {
+    background-color: gray
+}
+.minibox {
+    width: 3em;
+    height: 3em;
+    background-color: ghostwhite;
+    border-radius: 30%;
+    top: 0;
+    left: 0;
+    display: inline-block
+}
